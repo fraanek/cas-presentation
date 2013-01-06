@@ -1,0 +1,1 @@
+keytool -import -alias prezentacja-cas -keystore c:\Java\jdk1.7.0_09\jre\lib\security\cacerts -trustcacerts -file prezentacja-cas.crt
