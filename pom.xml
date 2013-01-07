@@ -16,9 +16,8 @@
         <cas.server.version>3.5.1</cas.server.version>
         <cas.client.version>3.2.1</cas.client.version>
 
-        <cas.client.configuration.servername>http://www.prezentacja-cas.pl:8080</cas.client.configuration.servername>
-        <cas.client.configuration.serverloginurl>https://logowanie.prezentacja-cas.pl:8443/cas/login</cas.client.configuration.serverloginurl>
-        <cas.client.configuration.serverurlprefix>https://logowanie.prezentacja-cas.pl:8443/cas</cas.client.configuration.serverurlprefix>
+        <cas.server.host>logowanie.prezentacja-cas.pl:8443</cas.server.host>
+        <cas.service.host>www.prezentacja-cas.pl:8443</cas.service.host>
     </properties>
     <repositories>
         <repository>
