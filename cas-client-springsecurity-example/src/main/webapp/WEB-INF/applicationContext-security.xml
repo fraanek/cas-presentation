@@ -35,6 +35,7 @@
         <user name="rod" password="rod" authorities="ROLE_SUPERVISOR,ROLE_USER" />
         <user name="dianne" password="dianne" authorities="ROLE_USER" />
         <user name="scott" password="scott" authorities="ROLE_USER" />
+        <user name="FacebookProfile#1808924475" password="FacebookProfile#1808924475" authorities="ROLE_USER" />
     </user-service>
 
     <!-- This filter handles a Single Logout Request from the CAS Server -->

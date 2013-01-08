@@ -52,7 +52,12 @@
 
 <p>
 This is simple home page with <b>gateway</b> mode <b>enabled</b>.
+</p>
+<p>
 ${pageContext.request.userPrincipal}
+</p>
+<p>
+${pageContext.request.userPrincipal.attributes['name']}
 </p>
 
 </div>
