@@ -112,7 +112,7 @@ a:hover {
 	background-color:#6699FF;
 	font-weight:bold;
 	text-decoration:none;
-	padding:4px 35px 4px 35px;
+	padding:4px 12px 4px 12px;
 	border:1px solid #3366FF;
 }
 
@@ -120,7 +120,7 @@ a:hover {
 	color:#ffffff;
 	background-color:#3366FF;
 	text-decoration:none;
-	padding:4px 35px 4px 35px;
+	padding:4px 12px 4px 12px;
 }
 
 #content {

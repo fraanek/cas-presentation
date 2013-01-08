@@ -72,6 +72,10 @@
     <servlet>
         <servlet-name>ptSampleServlet</servlet-name>
         <servlet-class>pl.fraanek.caspresentation.client.springsecurity.ProxyTicketSampleServlet</servlet-class>
+        <init-param>
+            <param-name>casServiceHost</param-name>
+            <param-value>${cas.service.host}</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>

@@ -43,7 +43,7 @@
 
 	    <c:choose>
 	        <c:when test="${pageContext.request.userPrincipal != null}">
-	            <h1>Welcome ${pageContext.request.userPrincipal} !</h1>
+	            <h1>Welcome ${pageContext.request.userPrincipal.name} !</h1>
 	        </c:when>
 	        <c:otherwise>
 	            <h1>Welcome anonymous user !</h1>

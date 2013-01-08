@@ -15,6 +15,7 @@
         <intercept-url pattern="/index.jsp" access="permitAll"/>
         <intercept-url pattern="/cas-logout.jsp" access="permitAll"/>
         <intercept-url pattern="/casfailed.jsp" access="permitAll"/>
+        <intercept-url pattern="/css/**" access="permitAll"/>
 
         <intercept-url pattern="/secure/extreme/**"
                        access="hasRole('ROLE_SUPERVISOR')" />

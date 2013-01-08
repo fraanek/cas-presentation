@@ -71,8 +71,8 @@ public final class ProxyTicketSampleServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         super.init();
-        String casServiceHost = System.getProperty("cas.service.host", "localhost:8443");
-        targetUrl = "https://"+casServiceHost+"/cas-sample/secure/";
+        String casServiceHost = getInitParameter("casServiceHost");
+        targetUrl = "https://"+casServiceHost+"/client-springsecurity/secure/";
     }
 
     private static final long serialVersionUID = -7720161771819727775L;
